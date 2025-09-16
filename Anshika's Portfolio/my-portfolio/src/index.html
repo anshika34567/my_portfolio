@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="Portfolio of Anshika - Web Developer, showcasing projects and contact information.">
+    <meta name="keywords" content="Portfolio, Web Developer, Projects, Contact, Anshika">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="about">
+            <img src="anshika.jpg" alt="Anshika Maurya" class="profile-photo" style="width:150px; height:150px; border-radius:50%; object-fit:cover; margin-bottom:1em;">
+            <h2>About Me</h2>
+            <p>I am Anshika Maurya, a passionate B.C.A. student (2023–2026) at Sam Higginbottom University of Agriculture, Technology & Sciences, with a keen interest in Web Development, AI, and Database Management. I enjoy transforming ideas into digital solutions through clean code, creative design, and logical problem-solving.<br>
+
+I have gained practical exposure through academic projects, internships, and workshops. My learning journey is focused on combining technical expertise with real-world applications, particularly in full-stack web development and AI-driven technologies. </p>
+
+<p><h3>Education</h3>                
+   <ul>
+       <li>B.C.A. – Sam Higginbottom University of Agriculture, Technology & Sciences (2023 – 2026)</li>
+       <li>Intermediate (2022 – 2023) – Maa Durga Ji Sr. Sec. Vidyalaya, Siddhikpur, Jaunpur, U.P</li>
+   </ul>
+</p>
+<p><h3>Skills </h3><ul>
+   <li>Languages: C, Python, HTML, CSS, JavaScript</li>
+   <li>Frameworks: .NET Framework, Flask, Django (basics)</li>
+   <li>Databases: MySQL, SQL</li>
+   <li>Tools: Git, GitHub</li>
+   <li>Other Skills: Web Design, Responsive UI, Problem Solving</li>
+</ul>
+</p>
+<p><h3>Certifications</h3>
+    <ul> 
+        <li>Internship Certificate – Website Design & Development Internship, iStudio (May–Aug 2025)</li>
+        <li>Certificate of Participation – AI Agent creation with Agentforce (GeeksforGeeks × Salesforce)</li>
+        <li>SQL Certificate – Newton School</li>
+    </ul>
+</p>
+<p><h3>Career Goals</h3>
+<ul>
+    <li>My goal is to become a skilled Software Developer specializing in Web Development and AI-driven applications.</li>
+    <li>I aim to keep learning and building solutions that make technology more accessible, impactful, and innovative.</li>
+    </ul>
+</p>
+        </section>
+        
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>1.Blood Donor System</h3>
+                <p><ul>
+                    <li>Built a full-stack web application to manage blood donations and requests.</li>
+<li>Designed an animated, responsive frontend using HTML & CSS.</li>
+<li>Developed backend modules with Python (Flask) for donor/receiver registration, login, and dashboard.</li>
+<li>Used MySQL database for secure storage of user and blood data.</li>
+<li>Integrated search, filter, and availability features to streamline donations.</li>
+<li>Deployed locally using Flask with potential scalability on production servers like Gunicorn.</li>
+<li>Ensured responsive design and modular architecture for easy maintenance.</li>
+                </ul></p>
+            </div>
+            <div class="project">
+                <h3>2.E-commerce Website (Internship Project)</h3>
+                <p><ul>
+                    <li>Built an e-commerce website during internship using HTML, CSS, JavaScript, and Bootstrap.</li>
+                    <li>Implemented responsive product listing, product detail pages, and category filters.</li>
+                    <li>Developed client-side cart functionality, allowing users to add/remove items and perform basic price calculations using JavaScript.</li>
+                    <li>Implemented search, responsive layout, and mobile-friendly navigation with Bootstrap components.</li>
+                    <li>Focus on clean UI, performance, and user experience; ready to integrate with backend APIs for full functionality.</li>
+                </ul></p>       
+            </div>              
+            <!-- Add more projects as needed -->
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Me</h2>
+        <p><ul>
+        <li><strong>Email:</strong><a href="mailto:anshika.maurya137@gmail.com">anshika.maurya137@gmail.com</a></li>
+        <li><strong>Mobile:</strong> <a href="tel:6306570353">6306570353</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anshika-maurya-263a39299" target="_blank">linkedin.com/in/anshika-maurya-263a39299</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/AnshikaMaurya" target="_blank">github.com/AnshikaMaurya</a></li>   
+        <!-- Add more contact methods if needed -->
+    </ul></p>
+ </section>
+    </main>
+    
+    <footer>
+        <p>&copy; <span id="year"></span> My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
